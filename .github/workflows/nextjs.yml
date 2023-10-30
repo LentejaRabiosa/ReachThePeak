@@ -34,7 +34,9 @@ jobs:
       - name: Detect package manager
         id: detect-package-manager
         run: |
-          pnpm run dev
+          pnpm install
+          pnpm run build
+          pnpm run export
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
