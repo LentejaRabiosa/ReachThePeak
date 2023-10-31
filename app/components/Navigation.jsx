@@ -16,7 +16,7 @@ export function Navigation({ children }) {
                 </NavbarBrand>
                 <NavbarContent justify='center'>
                     <NavbarItem>
-                        <Link as={NextLink} href='/inicio'>Inicio</Link>
+                        <Link as={NextLink} href='/'>Inicio</Link>
                     </NavbarItem>
                     <NavbarItem>
                     <Link as={NextLink} href='/sabermas'>Saber más</Link>
