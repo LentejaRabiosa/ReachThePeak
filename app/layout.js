@@ -1,6 +1,7 @@
 import './globals.css'
 import { Providers } from './components/provider'
 import { Navigation } from './components/Navigation'
+import { Tools } from './components/Tools'
 import { Footer } from './components/Footer'
 
 export const metadata = {
@@ -13,11 +14,10 @@ export default function Layout({ children }) {
     <html lang="en" className='light'>
       <body>
         <Providers>
-          <Navigation />
+          <Tools />
           <div className='main flex justify-center items-center'>
             {children}
           </div>
-          <Footer />
         </Providers>
       </body>
     </html>

@@ -1,11 +1,11 @@
 'use client'
 
-import { DashboardTools } from "./components/DashboardTools"
+import { Divider } from "@nextui-org/react"
 
 export default function Home() {
   return (
     <main>
-      <DashboardTools />
+      
     </main>
   )
 }
