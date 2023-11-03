@@ -14,7 +14,7 @@ export default function Layout({ children }) {
     <html lang="en" className='light'>
       <body>
         <Providers>
-          <Tools />
+          <Navigation />
           <div className='main flex justify-center items-center'>
             {children}
           </div>
